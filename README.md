@@ -1,27 +1,39 @@
-# Angular7Crud
+# Angular7CrudAnd Login APP
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2.
+1. clone the repository https://github.com/jagdishhulsure/angular7-crud-login-app.git
+2. do npm install
+3. ng serve
 
-## Development server
+For createing Json server
+1. go to db.json file directory
+2. run command : json-server --watch db.json
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+IF json server is not install do as follows
 
-## Code scaffolding
+1. npm install -g json-server
+2. create db.json file and add below content
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Sebastian",
+      "lastName": "Eschweiler",
+      "email": "sebastian@codingthesmartway.com"
+    },
+    {
+      "id": 2,
+      "firstName": "Steve",
+      "lastName": "Palmer",
+      "email": "steve@codingthesmartway.com"
+    },
+    {
+      "id": 3,
+      "firstName": "Ann",
+      "lastName": "Smith",
+      "email": "ann@codingthesmartway.com"
+    }
+  ]
+}
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+3. run command : json-server --watch db.json
