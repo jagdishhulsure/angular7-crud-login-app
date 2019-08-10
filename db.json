@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "firstName": "Jacks hulsure",
+      "lastName": "M Hulsure",
+      "email": "jmhulsure@gmail.com"
+    },
+    {
+      "id": 3,
+      "firstName": "Jagdish",
+      "lastName": "Hulsure",
+      "email": "jacks@gmail.com"
+    },
+    {
+      "id": 4,
+      "firstName": "Jai",
+      "lastName": "Hulsure",
+      "email": "jacks@gmail.com"
+    },
+    {
+      "id": 5,
+      "firstName": "Veer",
+      "lastName": "Hulsure",
+      "email": "jacks@gmail.com"
+    },
+    {
+      "id": 7,
+      "firstName": "Test user",
+      "lastName": "testing",
+      "email": "test@gmail.com"
+    },
+    {
+      "id": 8,
+      "firstName": "testing last",
+      "lastName": "data ",
+      "email": "test1111@gmail.com"
+    }
+  ]
+}
